@@ -6,6 +6,9 @@
 .bg-blood{
 	background-color: #b71500;
 }
+.bg-white{
+	background-color: #fff;
+}
 
 
 .col1{
@@ -47,14 +50,21 @@
 
 .container{
 	max-width: 1200px;
-	width: 100%;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 20px;
+	width: -webkit-calc(100% - 40px);
+	width: -moz-calc(100% - 40px);
+	width: calc(100% - 40px);
 }
 .content{
-	outline: 1px solid tomato;
 	padding: 10px;
 	height: -webkit-calc(100% - 20px);
 	height: -moz-calc(100% - 20px);
 	height: calc(100% - 20px);
+}
+.content.margin{
+	margin: 5px;
+	height: -webkit-calc(100% - 30px);
+	height: -moz-calc(100% - 30px);
+	height: calc(100% - 30px);
 }
